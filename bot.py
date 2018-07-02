@@ -44,14 +44,13 @@ client.remove_command("help")
 
 @client.event
 async def on_ready():
-    print("=================================")
-    print("Nome : %s" % client.user.name)
-    print("ID : %s" % client.user.id)
-    print("Servidores : %s" % str(len(client.servers)))
-    print("Canais : %s" % str(len(set(client.get_all_channels()))))
-    print("Emojis : %s" % str(len(set(client.get_all_emojis()))))
-    print("Usuários : %s" % str(len(set(client.get_all_members()))))
-    print("=================================")
+    print("Online")
+#    print("Nome : %s" % client.user.name)
+#    print("ID : %s" % client.user.id)
+#    print("Servidores : %s" % str(len(client.servers)))
+#    print("Canais : %s" % str(len(set(client.get_all_channels()))))
+#    print("Emojis : %s" % str(len(set(client.get_all_emojis()))))
+#    print("Usuários : %s" % str(len(set(client.get_all_members()))))
 
 #################################################################################################################
 #################################################################################################################
