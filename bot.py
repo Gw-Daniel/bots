@@ -5,13 +5,10 @@ import time
 import requests
 import datetime
 import os
-import psutil
 import datetime
 import time
 from datetime import datetime
 import platform
-from googletrans import Translator
-import requests
 import json
 from urllib.parse import quote
 from urllib.request import urlopen
@@ -20,9 +17,6 @@ from urllib.request import urlopen
 from urllib.request import unquote
 from random import *
 from urllib import request
-from PIL import Image, ImageDraw, ImageFont
-from PIL import Image, ImageFilter, ImageChops,ImageOps
-import requests
 from io import StringIO
 from io import BytesIO
 
