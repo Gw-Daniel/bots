@@ -1,0 +1,9 @@
+discord.py[voice]
+psutil
+requests
+bs4
+googletrans
+uptime
+pytz
+psutil
+datetime
